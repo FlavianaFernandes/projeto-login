@@ -23,14 +23,14 @@
     }
 }
 
-@media screen and (max-width: 992px) and (orientation: landscape) {
+@media screen and (min-width: 992px) and (orientation: landscape) {
     body, html {
         background-color: #602c82b7;
     }
 
-    main {
+ /*    main {
         height: 100vh;
-    }
+    } */
 
     section#login {
         top: 50%;
