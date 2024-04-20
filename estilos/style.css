@@ -27,15 +27,15 @@ section#login {
     position: absolute; /* para mover para o meio da tela (assim mexe no top e left) */
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /* ajustar o bloco para o meio (cima e esquerda) */
+    overflow: hidden; /* tudo que tiver fora da borda do bloco, fica escondido */
 
     background-color: white;
     width: 250px; /* tamanho pequeno adaptado para celular */
     height: 500px; 
     border-radius: 20px;
-    overflow: hidden; /* tudo que tiver fora da borda do bloco, fica escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.460); /* 0px e 0px para não ter espalhamento nem para o lado e nem para baixo */
 
+    transform: translate(-50%, -50%); /* ajustar o bloco para o meio (cima e esquerda) */
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 
@@ -44,10 +44,9 @@ section#login {
 section#login > div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/metal.jpg) no-repeat;
-    height: 200px;
     background-size: cover;
-    overflow: hidden;
     background-position: left center;
+    height: 200px;
 }
 
 section#login > div#formulario{
@@ -56,14 +55,14 @@ section#login > div#formulario{
 }
 
 
-@media screen and (max-width: 992px) and (orientation: landscape) {
+@media screen and (max-width: 992px) and (orientation: landscape) { /* importante criar a orientação para landscape do celular */
     body, html {
         background-color: #602c82b7;
     }
 
-    main {
+    /* main {
         height: 100vh;
-    }
+    } */
 
     section#login {
         width: 600px; /* Ajuste o tamanho para o modo landscape */
