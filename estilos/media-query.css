@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (min-width: 992px) and (orientation: landscape) {
+@media screen and (max-width: 992px) and (orientation: landscape) {
     body, html {
         background-color: #602c82b7;
     }
@@ -33,18 +33,18 @@
     } */
 
     section#login {
+        width: 600px; /* Ajuste o tamanho para o modo landscape */
+        height: 250px; /* Ajuste o tamanho para o modo landscape */
+
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
-        width: 600px; /* Ajuste o tamanho para o modo landscape */
-        height: 250px; /* Ajuste o tamanho para o modo landscape */
     }
 
     section#login > div#imagem {
         float: left;
         width: 30%;
-        height: 100vh; /* Ajuste o tamanho para o modo landscape */
+        background-size: 100% 100%;
     }
 
     section#login > div#formulario {
