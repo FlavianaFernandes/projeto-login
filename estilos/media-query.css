@@ -28,9 +28,9 @@
         background-color: #602c82b7;
     }
 
- /*    main {
+    main {
         height: 100vh;
-    } */
+    }
 
     section#login {
         width: 600px; /* Ajuste o tamanho para o modo landscape */
