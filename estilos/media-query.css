@@ -42,11 +42,13 @@
     }
 
     section#login > div#imagem{
+        float: left;
         width: 50%;
         height: 100px; /* Ajuste o tamanho para o modo landscape */
     }
 
     section#login > div#formulario {
+        float: right;
         width: 50%;
     }
 }
