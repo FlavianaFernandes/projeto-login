@@ -55,3 +55,10 @@ section#login > div#formulario{
     padding: 10px;
 }
 
+
+@media screen and (orientation: landscape) { /* deitado */
+
+    body {
+        background-color: #5f2c82;
+    }
+}
