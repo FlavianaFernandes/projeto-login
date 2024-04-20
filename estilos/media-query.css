@@ -37,14 +37,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
 
-        width: 500px; /* Ajuste o tamanho para o modo landscape */
+        width: 600px; /* Ajuste o tamanho para o modo landscape */
         height: 250px; /* Ajuste o tamanho para o modo landscape */
     }
 
-    section#login > div#imagem{
+    section#login > div#imagem {
         float: left;
-        width: 50%;
-        height: 100px; /* Ajuste o tamanho para o modo landscape */
+        width: 30%;
+        height: 100vh; /* Ajuste o tamanho para o modo landscape */
     }
 
     section#login > div#formulario {
