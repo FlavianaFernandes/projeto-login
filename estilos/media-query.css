@@ -23,6 +23,29 @@
     }
 }
 
+@media screen and (max-width: 992px) and (orientation: landscape) {
+    body, html {
+        background-color: #602c82b7;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    section#login {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 500px; /* Ajuste o tamanho para o modo landscape */
+        height: 250px; /* Ajuste o tamanho para o modo landscape */
+    }
+
+    section#login > div#imagem{
+        height: 100px; /* Ajuste o tamanho para o modo landscape */
+    }
+}
+
 @media screen and (min-width: 992px) {
 
     body {
@@ -44,3 +67,4 @@
         width: 50%;
     }
 }
+
