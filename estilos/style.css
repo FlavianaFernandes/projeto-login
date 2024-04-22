@@ -95,6 +95,9 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+
+    outline: none; /* tira a borda preta que é clicada quando seleciona a caixa de email/senha */
+    
     transform: translateY(-13px); /* transformação/animação sempre deixar na última linha do seletor */
 }
 
