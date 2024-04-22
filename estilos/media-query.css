@@ -8,7 +8,7 @@
    
     section#login {
         width: 80vw;
-        height: 280px;
+        height: 310px;
         
     }
 
@@ -24,14 +24,14 @@
     }
 }
 
-@media screen and (min-width: 992px) { /* notebook pa cima, telas bem maiores */
+@media screen and (min-width: 992px) { /* notebook pra cima, telas bem maiores */
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
     section#login{
-        width: 800px;
+        width: 900px;
         height: 350px;
     }
 
@@ -51,8 +51,9 @@
     }
     
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
         text-align: justify;
+        margin: 20px 0;
     }
     
 }
