@@ -95,7 +95,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-12px); /* transformação/animação sempre deixar na última linha do seletor */
+    transform: translateY(-13px); /* transformação/animação sempre deixar na última linha do seletor */
 }
 
 form > input[type=submit] {
